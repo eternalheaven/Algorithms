@@ -40,8 +40,8 @@ func findSmallest<T:Comparable>(array: Array<T>) -> Int {
 		print(i)
 		if array[i] < smallest {
 			smallest = array[i]
-    		smallest_index = i
-    	}
+    			smallest_index = i
+    		}
   	}
   	return smallest_index
 }
